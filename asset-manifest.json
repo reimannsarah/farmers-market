@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reimannsarah/farmers-market/static/css/main.d144a154.css",
+    "main.js": "/reimannsarah/farmers-market/static/js/main.890c11c1.js",
+    "static/media/logo.png": "/reimannsarah/farmers-market/static/media/logo.0c6f12c7ba19cf59c371.png",
+    "static/media/lettuce4real.gif": "/reimannsarah/farmers-market/static/media/lettuce4real.10ed20ad3f8f102ff170.gif",
+    "index.html": "/reimannsarah/farmers-market/index.html",
+    "main.d144a154.css.map": "/reimannsarah/farmers-market/static/css/main.d144a154.css.map",
+    "main.890c11c1.js.map": "/reimannsarah/farmers-market/static/js/main.890c11c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d144a154.css",
+    "static/js/main.890c11c1.js"
+  ]
+}
