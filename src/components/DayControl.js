@@ -88,7 +88,7 @@ class DayControl extends React.Component {
         currentlyVisibleState =
           <React.Fragment>
             <p>Please select a day dummy</p>
-            <button onClick={this.handleClick}>Return Home</button>
+            <button onClick={this.handleClick}>Back</button>
           </React.Fragment>
       } else {
         currentlyVisibleState =
@@ -98,7 +98,7 @@ class DayControl extends React.Component {
               hours={chosenDay[0].hours}
               booth={chosenDay[0].booth}
             />
-            <button onClick={this.handleClick}>Return Home</button>
+            <button onClick={this.handleClick}>Back</button>
           </React.Fragment>
       }
 

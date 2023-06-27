@@ -58,7 +58,7 @@ class SeasonControl extends React.Component {
             )}
             
           />
-          <button onClick={this.handleClick}>Return Home</button>
+          <button onClick={this.handleClick}>Back</button>
         </React.Fragment>
       }
         
