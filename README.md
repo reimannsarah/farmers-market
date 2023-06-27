@@ -2,6 +2,8 @@
 
 ### by Sarah Reimann and Emma Gerigscott 
 
+![photo of app design](./src/img/farmers-market.gif)
+
 ## Description
 
 An app that allows you to check which farmer's markets a particular farm will be at on which days of the week
