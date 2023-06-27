@@ -40,6 +40,12 @@ body {
   font-size: 3em;
 }
 
+.lettuce {
+  z-index: -99;
+  position: fixed;
+  animation: diagonal 10s linear infinite;
+}
+
 .main {
   display: flex;
   padding: 50px;
@@ -93,5 +99,17 @@ ul {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes diagonal {
+  from {
+    -webkit-transform: translateX(80%) translateY(-80%);
+    transform: translateX(0%) translateY(0%);
+  
+  }
+  to {
+    -webkit-transform: translateX(-100%) translateY(100%);
+    transform: translateX(80%) translateY(80%);
   }
 }
