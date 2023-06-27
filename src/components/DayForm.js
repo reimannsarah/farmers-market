@@ -1,16 +1,18 @@
 import React from "react";
 
-function DayForm() {
+function DayForm(props) {
   return (
     <React.Fragment>
-      <form>
-        <select>
-          <option value="monday">Monday</option>
-          <option value="tuesday">Tuesday</option>
-          <option value="wednesday">Wednesday</option>
-          <option value="thursday">Thursday</option>
-          <option value="friday">Friday</option>
+      <form onSubmit={props.handleSubmit}>
+        <select value={props.input} onChange={props.handleChange}>
+          <option value="" disabled="true">Please Select a Day</option>
+          <option value="Monday">Monday</option>
+          <option value="Tuesday">Tuesday</option>
+          <option value="Wednesday">Wednesday</option>
+          <option value="Thursday">Thursday</option>
+          <option value="Friday">Friday</option>
         </select>
+        <button type="submit">Show me the day</button>
       </form>
     </React.Fragment>
   );
