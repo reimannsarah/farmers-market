@@ -8,8 +8,14 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <DayControl />
-      <SeasonControl />
+      <div className="main">
+        <div className="day result">
+          <DayControl />
+        </div>
+        <div className="season result">
+          <SeasonControl />
+        </div>
+      </div>
     </React.Fragment>
   );
 }
