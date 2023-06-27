@@ -1,31 +1,90 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+:root {
+  --black: #080708;
+  --blue: #3772FF;
+  --dark-blue: #2147a0;
+  --light: #CDEDF6;
+  --yellow: #FDCA40;
+  --green: #3F612D;
+  --font: "Kablammo"
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: var(--yellow);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 30px;
+  padding: 20px 0px 20px 50px;
+  background-color: #9db71c;
+  color: var(--light);
 }
 
-.App-link {
-  color: #61dafb;
+.header h1 {
+  background-color: #46510d;
+  padding: 7px 18px 9px;
+  border-radius: 10px;
+}
+
+.header img {
+  height: 150px;
+  border-radius: 50%;
+  animation: App-logo-spin 30s linear infinite;
+}
+
+.header h1 {
+  font-family: var(--font);
+  font-size: 3em;
+}
+
+.main {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+select {
+  border: none;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+.result {
+  border: 1px solid var(--dark-blue);
+  padding: 20px;
+  border-radius: 6px;
+  background-color: var(--light);
+  width: 250px;
+}
+
+.result h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+li {
+  list-style: none;
+  margin: 8px;
+}
+
+ul {
+  background-color: var(--blue);
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  border-radius: 6px;
+  border: 1px solid var(--dark-blue);
 }
 
 @keyframes App-logo-spin {
