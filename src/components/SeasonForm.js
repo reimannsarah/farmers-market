@@ -1,9 +1,10 @@
 import React from "react";
 
-function SeasonForm() {
+function SeasonForm(props) {
   return (
-    <form>
-      <select>
+    <form onSubmit={props.handleSubmit}>
+      <select value={props.input} onChange={props.handleChange}>
+        <option value="" disabled="true">Please Select a Season</option>
         <option value="January">January</option>
         <option value="February">February</option>
         <option value="March">March</option>
@@ -17,6 +18,7 @@ function SeasonForm() {
         <option value="November">November</option>
         <option value="December">December</option>
       </select>
+      <button type="submit">Show me the veggies</button>
     </form>
   )
 }
